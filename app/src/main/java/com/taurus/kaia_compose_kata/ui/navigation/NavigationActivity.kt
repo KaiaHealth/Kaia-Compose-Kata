@@ -5,7 +5,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
-import com.taurus.kaia_compose_kata.ui.navigation.basic.SetupNavGraph
+import com.taurus.kaia_compose_kata.ui.navigation.basic.BasicNavGraph
 import com.taurus.kaia_compose_kata.ui.theme.KaiaComposeKataTheme
 
 class NavigationActivity : ComponentActivity() {
@@ -15,9 +15,9 @@ class NavigationActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            KaiaComposeKataTheme() {
+            KaiaComposeKataTheme {
                 navController = rememberNavController()
-                SetupNavGraph(navController = navController)
+                BasicNavGraph(navController = navController)
             }
         }
     }
