@@ -10,6 +10,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 
+// TODO - 15: How do we fix the backstack problem?
+// Hint: https://developer.android.com/jetpack/compose/navigation
 
 @Composable
 fun DetailScreen(id: Int?, name: String?) {

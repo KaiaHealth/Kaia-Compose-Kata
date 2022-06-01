@@ -8,7 +8,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.navArgument
 
 @Composable
-fun SetupNavGraph(
+fun ArgNavGraph(
     navController: NavHostController
 ) {
     NavHost(

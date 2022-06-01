@@ -11,10 +11,8 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 
 
-// TODO - 12: We need to navigate from Home Screen to Detail screen
-// TODO - 13: We need to navigate from Details Screen to Home screen explicitly without the back button
-// TODO - 14: How do we fix the backstack problem?
-// Hint: https://developer.android.com/jetpack/compose/navigation
+// TODO - 12: Lets try to understand and fix the crash
+// TODO - 13: We need to navigate from Home Screen to Detail screen
 
 @Composable
 fun HomeScreen() {

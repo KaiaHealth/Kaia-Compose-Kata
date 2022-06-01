@@ -64,7 +64,6 @@ class MainActivity : ComponentActivity() {
 // TODO - 4: On boarding screen shows again on the configuration change for example on screen rotation.
 // How do we stop that?
 
-
 @Composable
 fun MyApp() {
     var shouldShowOnboarding = true
@@ -111,9 +110,9 @@ fun Greeting(name: String) {
 }
 
 
-// TODO - 6: The expanded state is not behaving as expected let's find a solution
-// TODO - 7: View isn't the whole width of the screen what modifier would you use?
-// TODO - 8: Let's try to change the fontWeight for "MaterialTheme.typography.h4"
+// TODO - 7: The expanded state is not behaving as expected let's find a solution
+// TODO - 8: View isn't the whole width of the screen what modifier would you use?
+// TODO - 9: Let's try to change the fontWeight for "MaterialTheme.typography.h4"
 
 @Composable
 private fun CardContent(name: String) {
@@ -166,8 +165,8 @@ fun OnboadingPreview() {
     }
 }
 
-// TODO - 9: Make use of another @Preview tag to display the night mode version of the layout
-// TODO - 10: Set width to increase the size
+// TODO - 10: Make use of another @Preview tag to display the night mode version of the layout
+// TODO - 11: Set width to increase the size
 @Preview(showBackground = true)
 @Composable
 fun DefaultPreview() {

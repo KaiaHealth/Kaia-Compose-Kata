@@ -10,6 +10,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 
+// TODO - 14: We need to navigate from Details Screen to Home screen explicitly without the back button
 
 @Composable
 fun DetailScreen(
